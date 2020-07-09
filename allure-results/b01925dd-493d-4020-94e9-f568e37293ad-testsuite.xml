@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594261848067' stop='1594261852672'>
+    <name>Client</name>
+    <title>Client</title>
+    <test-cases>
+        <test-case start='1594261848067' status='failed' stop='1594261852672'>
+            <name>Get title</name>
+            <title>Get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594261848072' status='passed' stop='1594261849820'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fc7dbbe4-c706-496b-90d8-3bd0c0c9182d-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594261849821' status='passed' stop='1594261850107'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='109f2d43-2322-4c81-bc97-fc2429be4b4d-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594261852119' status='passed' stop='1594261852670'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7ed75aa7-4857-4312-8c94-b019402c5b63-attachment.png' type='image/png' size='466756'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'Bitly | Custom URL Shortener, Link Management &amp; Branded Links' == 'Bug Tracker'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'Bitly | Custom URL Shortener, Link Management &amp; Branded Links' == 'Bug Tracker'
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/test.js:9:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
