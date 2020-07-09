@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594265927001' stop='1594265927441'>
+    <name>Header</name>
+    <title>Header</title>
+    <test-cases>
+        <test-case start='1594265927001' status='broken' stop='1594265927440'>
+            <name>Logo-text</name>
+            <title>Logo-text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594265927006' status='passed' stop='1594265927438'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7f93e77c-23d2-444d-972b-e6534c6e27a8-attachment.png' type='image/png' size='14749'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_header.default.moderLogin is not a function</message>
+                <stack-trace>TypeError: _header.default.moderLogin is not a function
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/header.test.js:6:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

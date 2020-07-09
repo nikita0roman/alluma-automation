@@ -1,0 +1,140 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594267480318' stop='1594267482727'>
+    <name>Header</name>
+    <title>Header</title>
+    <test-cases>
+        <test-case start='1594267480320' status='passed' stop='1594267481110'>
+            <name>Header-logo</name>
+            <title>Header-logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594267480334' status='passed' stop='1594267481061'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ce178fc8-950b-4041-b9b8-a790fc849847-attachment.json' type='application/json' size='436'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594267481063' status='passed' stop='1594267481082'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5da77aae-6594-4b95-b2b5-61cbacb5a8c0-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='27dc1f0a-50ee-49ab-875b-23715f0e0c65-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594267481088' status='passed' stop='1594267481108'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='717b4991-b9bf-455f-be1a-3e7e10d33cc6-attachment.json' type='application/json' size='5306'/>
+                        <attachment title='Response' source='a02a5036-faec-4e4e-8168-2cbea5ca8b03-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594267481111' status='passed' stop='1594267481155'>
+            <name>Header-logo-text</name>
+            <title>Header-logo-text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594267481112' status='passed' stop='1594267481123'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='36270cf6-9fb2-49f3-84f9-5a5e2a5f54d4-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='00437855-86d4-4f68-8ba8-5b00d990b3de-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594267481125' status='passed' stop='1594267481152'>
+                    <name>GET /session/:sessionId/element/00151c50-a140-4f7d-b95f-bf60ce248490/text</name>
+                    <title>GET /session/:sessionId/element/00151c50-a140-4f7d-b95f-bf60ce248490/text</title>
+                    <attachments>
+                        <attachment title='Response' source='e4e5e147-be17-4b60-abd4-6a20efc94dc4-attachment.json' type='application/json' size='13'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594267481156' status='passed' stop='1594267481190'>
+            <name>Header-logo-color</name>
+            <title>Header-logo-color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594267481156' status='passed' stop='1594267481167'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='917980d0-131c-4ae2-a0a2-3df1469b6f46-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='332955b8-68a6-405f-9567-963cf152a2ff-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594267481170' status='passed' stop='1594267481189'>
+                    <name>GET /session/:sessionId/element/00151c50-a140-4f7d-b95f-bf60ce248490/css/color</name>
+                    <title>GET /session/:sessionId/element/00151c50-a140-4f7d-b95f-bf60ce248490/css/color</title>
+                    <attachments>
+                        <attachment title='Response' source='a7e9adf3-9fe0-4b81-a6c7-62e48a98faa6-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594267481191' status='broken' stop='1594267482718'>
+            <name>Header-logo-size</name>
+            <title>Header-logo-size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594267481195' status='passed' stop='1594267482707'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5e731597-9afc-4686-9a68-fc9d48f49b54-attachment.png' type='image/png' size='1724858'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_header.default.headerSize is not a function</message>
+                <stack-trace>TypeError: _header.default.headerSize is not a function
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/header.test.js:18:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
