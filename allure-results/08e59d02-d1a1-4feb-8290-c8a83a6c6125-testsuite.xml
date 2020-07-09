@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594263214332' stop='1594263218565'>
+    <name>Client</name>
+    <title>Client</title>
+    <test-cases>
+        <test-case start='1594263214332' status='failed' stop='1594263218564'>
+            <name>Get title</name>
+            <title>Get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594263214335' status='passed' stop='1594263215127'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8166e89c-a33c-4511-b5bc-594a219f23aa-attachment.json' type='application/json' size='436'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594263215127' status='passed' stop='1594263215134'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='048a9a56-e121-47a7-97cd-7085e6c3cffc-attachment.json' type='application/json' size='13'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594263217144' status='passed' stop='1594263218557'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='90f54215-16cd-41ff-a456-780896a4695a-attachment.png' type='image/png' size='1724588'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'Connections' == 'Bug Tracker'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'Connections' == 'Bug Tracker'
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/test.js:9:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
