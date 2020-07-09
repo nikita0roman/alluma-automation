@@ -3,6 +3,7 @@ import header from '../pages/header.page'
 describe('Header', function () {
 
     it('Header-logo', function () {
+        header.openBase();
         header.headerLogoDispayed();
     })
 

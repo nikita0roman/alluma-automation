@@ -1,0 +1,1157 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594279182688' stop='1594279194423'>
+    <name>Footer</name>
+    <title>Footer</title>
+    <test-cases>
+        <test-case start='1594279182689' status='passed' stop='1594279183601'>
+            <name>Footer-logo</name>
+            <title>Footer-logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279182695' status='passed' stop='1594279183544'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='26085648-d9aa-4a65-b0ac-3f29dc20dba4-attachment.json' type='application/json' size='436'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594279183545' status='passed' stop='1594279183575'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a4753ac2-c902-4a30-b92f-1fb9ac430390-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='a869d520-95bd-44c7-8631-40da1635e531-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594279183585' status='passed' stop='1594279183600'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='1bb17c35-7695-4d36-8f1b-84fb8cef0c92-attachment.json' type='application/json' size='5306'/>
+                        <attachment title='Response' source='405b047c-a1d7-4a7f-8093-2a61229b0c6e-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594279183602' status='passed' stop='1594279183648'>
+            <name>First-h4-text</name>
+            <title>First-h4-text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279183603' status='passed' stop='1594279183620'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4b94086e-f6aa-498f-9930-abf28f149209-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='a6585e9a-2d6e-491d-9b3c-290fb1dfd168-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594279183622' status='passed' stop='1594279183647'>
+                    <name>GET /session/:sessionId/element/9621c4d5-240b-465e-886c-7d7f1f7dda4a/text</name>
+                    <title>GET /session/:sessionId/element/9621c4d5-240b-465e-886c-7d7f1f7dda4a/text</title>
+                    <attachments>
+                        <attachment title='Response' source='f862f1ca-1177-42b6-9078-fe2bd8e0069c-attachment.json' type='application/json' size='17'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594279183649' status='passed' stop='1594279183688'>
+            <name>First-h4-color</name>
+            <title>First-h4-color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279183650' status='passed' stop='1594279183663'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3e618ea0-769c-4f4e-91da-ac2000a878c7-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='6b5c6938-1f28-4af7-b586-5777375703cb-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594279183666' status='passed' stop='1594279183686'>
+                    <name>GET /session/:sessionId/element/9621c4d5-240b-465e-886c-7d7f1f7dda4a/css/color</name>
+                    <title>GET /session/:sessionId/element/9621c4d5-240b-465e-886c-7d7f1f7dda4a/css/color</title>
+                    <attachments>
+                        <attachment title='Response' source='31fb4371-046f-4eb1-9163-c4eb192a8e03-attachment.json' type='application/json' size='21'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594279183688' status='passed' stop='1594279183724'>
+            <name>First-h4-size</name>
+            <title>First-h4-size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279183689' status='passed' stop='1594279183702'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9a28f9aa-6873-4d7b-874b-edac280cf7a1-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='44a9b39f-dbb2-411a-8965-e7579a5f678a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594279183705' status='passed' stop='1594279183724'>
+                    <name>GET /session/:sessionId/element/9621c4d5-240b-465e-886c-7d7f1f7dda4a/css/font-size</name>
+                    <title>GET /session/:sessionId/element/9621c4d5-240b-465e-886c-7d7f1f7dda4a/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='2083e47d-5b2e-4426-96c5-ae0194fe3d5f-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594279183725' status='passed' stop='1594279183783'>
+            <name>Second-h4-text</name>
+            <title>Second-h4-text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279183726' status='passed' stop='1594279183754'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='739d777d-709e-495d-b482-f69ed4b0361d-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='5b5811ad-2c79-421a-8909-561d424781b8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594279183755' status='passed' stop='1594279183782'>
+                    <name>GET /session/:sessionId/element/9f64014c-7a07-449c-9b2f-3df5fe64b6c2/text</name>
+                    <title>GET /session/:sessionId/element/9f64014c-7a07-449c-9b2f-3df5fe64b6c2/text</title>
+                    <attachments>
+                        <attachment title='Response' source='421918f9-67ce-4985-bbda-635edc885ea8-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594279183783' status='passed' stop='1594279183822'>
+            <name>Second-h4-color</name>
+            <title>Second-h4-color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279183785' status='passed' stop='1594279183802'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='96048793-a9ba-41eb-81f5-73a81c183979-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='682875e5-ed0f-4871-80b6-21c1b5918049-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594279183804' status='passed' stop='1594279183821'>
+                    <name>GET /session/:sessionId/element/9f64014c-7a07-449c-9b2f-3df5fe64b6c2/css/color</name>
+                    <title>GET /session/:sessionId/element/9f64014c-7a07-449c-9b2f-3df5fe64b6c2/css/color</title>
+                    <attachments>
+                        <attachment title='Response' source='f16ec3c0-77bf-4f92-a568-0c3121ce25e9-attachment.json' type='application/json' size='21'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594279183822' status='broken' stop='1594279193917'>
+            <name>Second-h4-size</name>
+            <title>Second-h4-size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279183822' status='passed' stop='1594279183865'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2bba0daa-7d86-4e7b-aeb9-a38c0236c7e9-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594279183882' status='broken' stop='1594279193917'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='0c1210b6-a867-4e75-8482-78bd8721984d-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279184375' status='broken' stop='1594279193917'>
+                            <name>POST /session/:sessionId/elements</name>
+                            <title>POST /session/:sessionId/elements</title>
+                            <attachments>
+                                <attachment title='Request' source='a12403cc-d433-48ed-9a0c-70ce518073d9-attachment.json' type='application/json' size='59'/>
+                            </attachments>
+                            <steps>
+                                <step start='1594279184875' status='broken' stop='1594279193917'>
+                                    <name>POST /session/:sessionId/elements</name>
+                                    <title>POST /session/:sessionId/elements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='4af7830f-f612-4dac-a23b-4f9674337d42-attachment.json' type='application/json' size='59'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1594279185374' status='broken' stop='1594279193917'>
+                                            <name>POST /session/:sessionId/elements</name>
+                                            <title>POST /session/:sessionId/elements</title>
+                                            <attachments>
+                                                <attachment title='Request' source='4c47e149-cd77-49d0-a1a3-8b52230f09f4-attachment.json' type='application/json' size='59'/>
+                                            </attachments>
+                                            <steps>
+                                                <step start='1594279185873' status='broken' stop='1594279193917'>
+                                                    <name>POST /session/:sessionId/elements</name>
+                                                    <title>POST /session/:sessionId/elements</title>
+                                                    <attachments>
+                                                        <attachment title='Request' source='64f7d414-e783-4bef-b9f3-f0f326a4602a-attachment.json' type='application/json' size='59'/>
+                                                    </attachments>
+                                                    <steps>
+                                                        <step start='1594279186371' status='broken' stop='1594279193917'>
+                                                            <name>POST /session/:sessionId/elements</name>
+                                                            <title>POST /session/:sessionId/elements</title>
+                                                            <attachments>
+                                                                <attachment title='Request' source='361c3214-d455-411c-8b9d-16ccb19f3835-attachment.json' type='application/json' size='59'/>
+                                                            </attachments>
+                                                            <steps>
+                                                                <step start='1594279186875' status='broken' stop='1594279193917'>
+                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                    <attachments>
+                                                                        <attachment title='Request' source='036227a1-9554-4a57-932f-2b6e2c72d540-attachment.json' type='application/json' size='59'/>
+                                                                    </attachments>
+                                                                    <steps>
+                                                                        <step start='1594279187374' status='broken' stop='1594279193917'>
+                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                            <attachments>
+                                                                                <attachment title='Request' source='f07dc76f-f104-4c7f-b92a-20cb35d2b024-attachment.json' type='application/json' size='59'/>
+                                                                            </attachments>
+                                                                            <steps>
+                                                                                <step start='1594279187871' status='broken' stop='1594279193917'>
+                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                    <attachments>
+                                                                                        <attachment title='Request' source='2ae6d38e-eebd-4e70-8c0f-90ae3a8e7929-attachment.json' type='application/json' size='59'/>
+                                                                                    </attachments>
+                                                                                    <steps>
+                                                                                        <step start='1594279188374' status='broken' stop='1594279193917'>
+                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                            <attachments>
+                                                                                                <attachment title='Request' source='8bbfc8ad-e0d4-4aaa-902a-e3a1b2d0f82c-attachment.json' type='application/json' size='59'/>
+                                                                                            </attachments>
+                                                                                            <steps>
+                                                                                                <step start='1594279188871' status='broken' stop='1594279193917'>
+                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                    <attachments>
+                                                                                                        <attachment title='Request' source='73409304-88e9-4529-9c3a-f1b7ddf3f15e-attachment.json' type='application/json' size='59'/>
+                                                                                                    </attachments>
+                                                                                                    <steps>
+                                                                                                        <step start='1594279189372' status='broken' stop='1594279193917'>
+                                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                                            <attachments>
+                                                                                                                <attachment title='Request' source='c9a38400-f301-4d72-ad34-934778ebc8f3-attachment.json' type='application/json' size='59'/>
+                                                                                                            </attachments>
+                                                                                                            <steps>
+                                                                                                                <step start='1594279189871' status='broken' stop='1594279193917'>
+                                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                                    <attachments>
+                                                                                                                        <attachment title='Request' source='10067c30-686a-4e2e-969c-6061908ccea0-attachment.json' type='application/json' size='59'/>
+                                                                                                                    </attachments>
+                                                                                                                    <steps>
+                                                                                                                        <step start='1594279190371' status='broken' stop='1594279193917'>
+                                                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                                                            <attachments>
+                                                                                                                                <attachment title='Request' source='38376318-4d7f-4f9b-b53d-34e30eb000ab-attachment.json' type='application/json' size='59'/>
+                                                                                                                            </attachments>
+                                                                                                                            <steps>
+                                                                                                                                <step start='1594279190875' status='broken' stop='1594279193917'>
+                                                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                                                    <attachments>
+                                                                                                                                        <attachment title='Request' source='271489e1-f115-498b-b879-3ddc2d7bbe66-attachment.json' type='application/json' size='59'/>
+                                                                                                                                    </attachments>
+                                                                                                                                    <steps>
+                                                                                                                                        <step start='1594279191371' status='broken' stop='1594279193917'>
+                                                                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                                                                            <attachments>
+                                                                                                                                                <attachment title='Request' source='14157b91-93a8-476b-9491-df9262f1a7c5-attachment.json' type='application/json' size='59'/>
+                                                                                                                                            </attachments>
+                                                                                                                                            <steps>
+                                                                                                                                                <step start='1594279191871' status='broken' stop='1594279193917'>
+                                                                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                                                                    <attachments>
+                                                                                                                                                        <attachment title='Request' source='3bd19e22-6180-4ca7-9a4d-f3fa5b4bd847-attachment.json' type='application/json' size='59'/>
+                                                                                                                                                    </attachments>
+                                                                                                                                                    <steps>
+                                                                                                                                                        <step start='1594279192372' status='broken' stop='1594279193917'>
+                                                                                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                                                                                            <attachments>
+                                                                                                                                                                <attachment title='Request' source='ab459fcb-9a3e-4f9f-955a-7f8bfca3644d-attachment.json' type='application/json' size='59'/>
+                                                                                                                                                            </attachments>
+                                                                                                                                                            <steps>
+                                                                                                                                                                <step start='1594279192871' status='broken' stop='1594279193917'>
+                                                                                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                                                                                    <attachments>
+                                                                                                                                                                        <attachment title='Request' source='d25e9162-b18c-4773-a2f3-bf4cdc7e3fe5-attachment.json' type='application/json' size='59'/>
+                                                                                                                                                                    </attachments>
+                                                                                                                                                                    <steps>
+                                                                                                                                                                        <step start='1594279193374' status='broken' stop='1594279193917'>
+                                                                                                                                                                            <name>POST /session/:sessionId/elements</name>
+                                                                                                                                                                            <title>POST /session/:sessionId/elements</title>
+                                                                                                                                                                            <attachments>
+                                                                                                                                                                                <attachment title='Request' source='b94f2592-23a2-4456-9c6c-0c04b2c72471-attachment.json' type='application/json' size='59'/>
+                                                                                                                                                                            </attachments>
+                                                                                                                                                                            <steps>
+                                                                                                                                                                                <step start='1594279193872' status='broken' stop='1594279193917'>
+                                                                                                                                                                                    <name>POST /session/:sessionId/elements</name>
+                                                                                                                                                                                    <title>POST /session/:sessionId/elements</title>
+                                                                                                                                                                                    <attachments>
+                                                                                                                                                                                        <attachment title='Request' source='d72ba5b9-eabd-40b8-992f-f03102c9d645-attachment.json' type='application/json' size='59'/>
+                                                                                                                                                                                    </attachments>
+                                                                                                                                                                                    <steps>
+                                                                                                                                                                                        <step start='1594279193892' status='broken' stop='1594279193917'>
+                                                                                                                                                                                            <name>GET /session/:sessionId/screenshot</name>
+                                                                                                                                                                                            <title>GET /session/:sessionId/screenshot</title>
+                                                                                                                                                                                            <attachments/>
+                                                                                                                                                                                            <steps/>
+                                                                                                                                                                                        </step>
+                                                                                                                                                                                    </steps>
+                                                                                                                                                                                </step>
+                                                                                                                                                                            </steps>
+                                                                                                                                                                        </step>
+                                                                                                                                                                    </steps>
+                                                                                                                                                                </step>
+                                                                                                                                                            </steps>
+                                                                                                                                                        </step>
+                                                                                                                                                    </steps>
+                                                                                                                                                </step>
+                                                                                                                                            </steps>
+                                                                                                                                        </step>
+                                                                                                                                    </steps>
+                                                                                                                                </step>
+                                                                                                                            </steps>
+                                                                                                                        </step>
+                                                                                                                    </steps>
+                                                                                                                </step>
+                                                                                                            </steps>
+                                                                                                        </step>
+                                                                                                    </steps>
+                                                                                                </step>
+                                                                                            </steps>
+                                                                                        </step>
+                                                                                    </steps>
+                                                                                </step>
+                                                                            </steps>
+                                                                        </step>
+                                                                    </steps>
+                                                                </step>
+                                                            </steps>
+                                                        </step>
+                                                    </steps>
+                                                </step>
+                                            </steps>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Can't call getCSSProperty on element with selector ".gg-footer-hdr2" because element wasn't found</message>
+                <stack-trace>Error: Can't call getCSSProperty on element with selector ".gg-footer-hdr2" because element wasn't found
+                    at footer.secH4Size (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:38:33)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:31:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279193918' status='broken' stop='1594279193948'>
+            <name>Three-h4-text</name>
+            <title>Three-h4-text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279193919' status='broken' stop='1594279193948'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9996c6d3-1162-41d6-a980-40175aace951-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279193933' status='broken' stop='1594279193948'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.thrH4Text (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:43:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:35:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279193948' status='broken' stop='1594279193979'>
+            <name>Three-h4-color</name>
+            <title>Three-h4-color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279193949' status='broken' stop='1594279193979'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='386c79da-3141-47c5-a162-3a8f7bebc5a0-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279193966' status='broken' stop='1594279193979'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.thrH4Color (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:48:21)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:39:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279193979' status='broken' stop='1594279194014'>
+            <name>Three-h4-size</name>
+            <title>Three-h4-size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279193980' status='broken' stop='1594279194014'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3fe80d38-0d24-496a-8cfa-9c1cac1633f4-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279193993' status='broken' stop='1594279194014'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.thrH4Size (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:53:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:43:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194014' status='broken' stop='1594279194054'>
+            <name>First-span</name>
+            <title>First-span</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194017' status='broken' stop='1594279194054'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ed89a5e4-b297-4e12-b57f-36698810ea4d-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194044' status='broken' stop='1594279194054'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.frsSpan1Text (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:58:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:47:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194054' status='broken' stop='1594279194079'>
+            <name>Second-span</name>
+            <title>Second-span</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194055' status='broken' stop='1594279194079'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0ce448c5-66f1-4501-852a-8f558cd90f61-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194069' status='broken' stop='1594279194079'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.frsSpan2Text (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:63:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:51:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194079' status='broken' stop='1594279194111'>
+            <name>Phone-number</name>
+            <title>Phone-number</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194080' status='broken' stop='1594279194111'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c10f2153-803e-4d06-88e0-c855cdce78a7-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194097' status='broken' stop='1594279194111'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.phoneNumber (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:68:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:55:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194112' status='broken' stop='1594279194132'>
+            <name>Mail-address</name>
+            <title>Mail-address</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194112' status='broken' stop='1594279194132'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='33771133-7e6b-491b-b613-89aa9672d1a8-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194124' status='broken' stop='1594279194132'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.mailAddress (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:73:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:59:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194133' status='broken' stop='1594279194153'>
+            <name>Fax</name>
+            <title>Fax</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194134' status='broken' stop='1594279194153'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='499d3a58-99f5-4592-8527-836b59863d7f-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194144' status='broken' stop='1594279194153'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.fax (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:78:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:63:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194154' status='broken' stop='1594279194179'>
+            <name>Facebook-ico</name>
+            <title>Facebook-ico</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194155' status='broken' stop='1594279194179'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c2ff035e-6a69-40e9-a81c-bbecebdeea71-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194167' status='broken' stop='1594279194179'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.fb (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:83:9)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:67:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194179' status='broken' stop='1594279194209'>
+            <name>Twitter-ico</name>
+            <title>Twitter-ico</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194179' status='broken' stop='1594279194209'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9302e50e-067b-4407-987e-ff515ba8511e-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194191' status='broken' stop='1594279194209'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.tw (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:87:9)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:71:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194210' status='broken' stop='1594279194257'>
+            <name>Linkedin-ico</name>
+            <title>Linkedin-ico</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194211' status='broken' stop='1594279194257'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='aef2f3a1-c078-4320-8a37-ce5526e56743-attachment.json' type='application/json' size='74'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194233' status='broken' stop='1594279194257'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.in (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:91:9)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:75:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194258' status='broken' stop='1594279194291'>
+            <name>Hr-height</name>
+            <title>Hr-height</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194258' status='broken' stop='1594279194291'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4ff025fd-0be2-42ca-8fd6-083819f9f9a5-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194280' status='broken' stop='1594279194291'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.hrHeight (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:95:19)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:79:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194292' status='broken' stop='1594279194313'>
+            <name>Alluma-logo-alt</name>
+            <title>Alluma-logo-alt</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194292' status='broken' stop='1594279194313'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dcbf3f37-2824-4315-8961-19c4776a05fb-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194304' status='broken' stop='1594279194313'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.allumaLogoAlt (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:100:23)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:83:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194314' status='broken' stop='1594279194343'>
+            <name>Alluma-logo-width</name>
+            <title>Alluma-logo-width</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194314' status='broken' stop='1594279194343'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2953ab21-3267-42e2-98cc-9434b403cf01-attachment.json' type='application/json' size='61'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194328' status='broken' stop='1594279194343'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.allumaLogoWidth (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:105:23)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:87:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194343' status='broken' stop='1594279194368'>
+            <name>Alluma-logo-link</name>
+            <title>Alluma-logo-link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194343' status='broken' stop='1594279194368'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='ae5ecc91-15da-48cc-918c-3f0a68a1309e-attachment.json' type='application/json' size='75'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194353' status='broken' stop='1594279194368'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $$ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:191:37)
+                    at footer.allumaLogoLink (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:110:23)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:91:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194368' status='broken' stop='1594279194393'>
+            <name>Copyright</name>
+            <title>Copyright</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194369' status='broken' stop='1594279194393'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='de1e7a6d-e771-4c2e-a45d-bf567e117cbf-attachment.json' type='application/json' size='71'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194378' status='broken' stop='1594279194393'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $$ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:191:37)
+                    at footer.copyright (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:125:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:95:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594279194393' status='broken' stop='1594279194421'>
+            <name>Copyright-Link</name>
+            <title>Copyright-Link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594279194394' status='broken' stop='1594279194421'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='542d531d-fa29-4790-9796-ace90d4fb70f-attachment.json' type='application/json' size='68'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594279194406' status='broken' stop='1594279194421'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at footer.copyrightALink (/Users/newuser/Projects/alluma-automation/test/pages/footer.page.js:120:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/footer.test.js:99:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

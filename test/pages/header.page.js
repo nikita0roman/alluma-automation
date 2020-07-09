@@ -6,7 +6,6 @@ import Base from '../pages/base';
 class header extends Base {
 
     headerLogoDispayed() {
-        this.openBase();
         $(sel.hLogo).isDisplayed();
     }
 

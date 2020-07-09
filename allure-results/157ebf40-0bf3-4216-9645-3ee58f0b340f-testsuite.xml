@@ -1,0 +1,183 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594270033553' stop='1594270034737'>
+    <name>Header</name>
+    <title>Header</title>
+    <test-cases>
+        <test-case start='1594270033553' status='broken' stop='1594270034670'>
+            <name>Header-logo</name>
+            <title>Header-logo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594270033559' status='passed' stop='1594270034612'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='035dc599-7d54-4f74-98e0-5a6687c2812d-attachment.json' type='application/json' size='436'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594270034614' status='broken' stop='1594270034670'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2c968d79-497f-476c-9cb8-3f77070693c2-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594270034650' status='broken' stop='1594270034670'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at headerLogoDispayed (/Users/newuser/Projects/alluma-automation/test/pages/header.page.js:10:9)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/header.test.js:6:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594270034672' status='broken' stop='1594270034694'>
+            <name>Header-logo-text</name>
+            <title>Header-logo-text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594270034673' status='broken' stop='1594270034694'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5f10184a-4247-4bb6-b591-7afc74704855-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594270034685' status='broken' stop='1594270034694'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at headerLogoText (/Users/newuser/Projects/alluma-automation/test/pages/header.page.js:14:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/header.test.js:10:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594270034695' status='broken' stop='1594270034718'>
+            <name>Header-logo-color</name>
+            <title>Header-logo-color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594270034695' status='broken' stop='1594270034718'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bb941665-1fe4-4296-a054-1a50d39c8a70-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594270034710' status='broken' stop='1594270034718'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at headerLogoColor (/Users/newuser/Projects/alluma-automation/test/pages/header.page.js:19:21)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/header.test.js:14:16)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594270034719' status='broken' stop='1594270034736'>
+            <name>Header-logo-size</name>
+            <title>Header-logo-size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594270034720' status='broken' stop='1594270034736'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1a1a83b0-1ddf-4631-99f2-8b846fbc8e98-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps>
+                        <step start='1594270034729' status='broken' stop='1594270034736'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=83.0.4103.116)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at $ (/Users/newuser/Projects/alluma-automation/node_modules/@wdio/runner/build/index.js:189:36)
+                    at headerLogoSize (/Users/newuser/Projects/alluma-automation/test/pages/header.page.js:24:20)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/header.test.js:18:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
