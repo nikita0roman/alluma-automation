@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594280690090' stop='1594280692541'>
+    <name>home</name>
+    <title>home</title>
+    <test-cases>
+        <test-case start='1594280690090' status='failed' stop='1594280692539'>
+            <name>Home-background</name>
+            <title>Home-background</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594280690110' status='passed' stop='1594280690946'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3b4325b6-bd2d-4474-a5e8-a574c657ce1b-attachment.json' type='application/json' size='436'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594280690947' status='passed' stop='1594280690965'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cada2d14-d731-4d80-9363-d47276e50c81-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='bb9929f5-c1b0-414d-be90-982aa93bcbb1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594280690971' status='passed' stop='1594280690991'>
+                    <name>GET /session/:sessionId/element/db5bb334-a7c8-4284-a070-2bcda9f4f35b/attribute/background-image</name>
+                    <title>GET /session/:sessionId/element/db5bb334-a7c8-4284-a070-2bcda9f4f35b/attribute/background-image</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594280690997' status='passed' stop='1594280692529'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='37d46bd3-47d8-4303-98bc-5aa8394b134a-attachment.png' type='image/png' size='1724992'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected null to equal 'url(\'../GGHome1366x768.jpg\')'</message>
+                <stack-trace>AssertionError: expected null to equal 'url(\'../GGHome1366x768.jpg\')'
+                    at home.bgImage (/Users/newuser/Projects/alluma-automation/test/pages/home.page.js:10:16)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/home.test.js:7:16)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

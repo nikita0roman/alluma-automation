@@ -1,4 +1,4 @@
-
+import sel from '../selectors/home.sel';
 
 class Base {
     openBase() {
@@ -17,6 +17,10 @@ class Base {
         browser.url('/users');
     }
 
+    pressLoginBtn() {
+        $(sel.btnLogin).click();
+        $(sel.svgAttention).waitForDisplayed();
+    }
 }
 
 export default Base;

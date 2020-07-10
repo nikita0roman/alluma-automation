@@ -1,0 +1,217 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594284220940' stop='1594284226406'>
+    <name>Home-page</name>
+    <title>Home-page</title>
+    <test-cases>
+        <test-case start='1594284220941' status='passed' stop='1594284222047'>
+            <name>Home-background</name>
+            <title>Home-background</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594284220945' status='passed' stop='1594284221993'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b885789e-c19b-4bfc-8d91-b3b6546c6f55-attachment.json' type='application/json' size='436'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594284221995' status='passed' stop='1594284222019'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dbbb5d0f-dc32-4099-b58d-271224ee2e95-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='37135cab-746d-415b-a8f2-fad3318def35-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594284222025' status='passed' stop='1594284222045'>
+                    <name>GET /session/:sessionId/element/29b24680-7502-46cc-aa49-6775f27f7e50/css/background-image</name>
+                    <title>GET /session/:sessionId/element/29b24680-7502-46cc-aa49-6775f27f7e50/css/background-image</title>
+                    <attachments>
+                        <attachment title='Response' source='f968c97a-537b-4c0a-984b-7a52e963f82f-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594284222047' status='passed' stop='1594284222090'>
+            <name>Container-background</name>
+            <title>Container-background</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594284222048' status='passed' stop='1594284222074'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6c428aa6-5226-4f6b-9a85-f794e8cf9caf-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='656a8ea7-9536-4f63-ac40-166f57ec4972-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594284222076' status='passed' stop='1594284222089'>
+                    <name>GET /session/:sessionId/element/219afff0-74e3-4d66-9b17-2cc75c64a0fa/css/background-color</name>
+                    <title>GET /session/:sessionId/element/219afff0-74e3-4d66-9b17-2cc75c64a0fa/css/background-color</title>
+                    <attachments>
+                        <attachment title='Response' source='32193d6d-1ec0-4f75-a197-523e23cba0d7-attachment.json' type='application/json' size='24'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594284222090' status='failed' stop='1594284223602'>
+            <name>Connections-text</name>
+            <title>Connections-text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594284222091' status='passed' stop='1594284222104'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0a005da6-a7a4-42f4-b996-d0f2a91d51ad-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='de0c8776-8f09-4b2d-bd32-7dfa6e699428-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594284222106' status='passed' stop='1594284222122'>
+                    <name>GET /session/:sessionId/element/861839e8-ccce-48b3-b727-77604e316fb3/text</name>
+                    <title>GET /session/:sessionId/element/861839e8-ccce-48b3-b727-77604e316fb3/text</title>
+                    <attachments>
+                        <attachment title='Response' source='700ca923-aa12-417c-b8f4-52ca8477c033-attachment.json' type='application/json' size='13'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594284222128' status='passed' stop='1594284223595'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a9dfa40b-9764-4c7c-8cc4-4020c01f992d-attachment.png' type='image/png' size='1724718'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'CONNECTIONS' to equal 'COsNNECTIONS'</message>
+                <stack-trace>AssertionError: expected 'CONNECTIONS' to equal 'COsNNECTIONS'
+                    at home.connText (/Users/newuser/Projects/alluma-automation/test/pages/home.page.js:20:16)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/home.test.js:15:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594284223603' status='failed' stop='1594284225039'>
+            <name>Connections-color</name>
+            <title>Connections-color</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594284223603' status='passed' stop='1594284223616'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='65b6590c-5b76-4027-a02e-6d748fb805ae-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='bf728049-5c58-4329-ac4c-de3cdb19f11f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594284223618' status='passed' stop='1594284223631'>
+                    <name>GET /session/:sessionId/element/861839e8-ccce-48b3-b727-77604e316fb3/css/color</name>
+                    <title>GET /session/:sessionId/element/861839e8-ccce-48b3-b727-77604e316fb3/css/color</title>
+                    <attachments>
+                        <attachment title='Response' source='901b267c-8a77-40cd-a5aa-b17e30881bb5-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594284223632' status='passed' stop='1594284225030'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='06bc0b3e-e91f-4846-a547-4a87679e44b6-attachment.png' type='image/png' size='1724588'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected '#37a1b9' to equal '#37sa1b9'</message>
+                <stack-trace>AssertionError: expected '#37a1b9' to equal '#37sa1b9'
+                    at home.connColor (/Users/newuser/Projects/alluma-automation/test/pages/home.page.js:25:16)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/home.test.js:19:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594284225039' status='failed' stop='1594284226405'>
+            <name>Connections-size</name>
+            <title>Connections-size</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594284225040' status='passed' stop='1594284225047'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3ec2b985-6f3c-4955-901d-da64fd3339e4-attachment.json' type='application/json' size='65'/>
+                        <attachment title='Response' source='7bb1c073-1a1e-4ceb-ac61-64bea431223a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594284225049' status='passed' stop='1594284225060'>
+                    <name>GET /session/:sessionId/element/861839e8-ccce-48b3-b727-77604e316fb3/css/font-size</name>
+                    <title>GET /session/:sessionId/element/861839e8-ccce-48b3-b727-77604e316fb3/css/font-size</title>
+                    <attachments>
+                        <attachment title='Response' source='541ca84e-8c44-41fb-ab25-b168b228e32d-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594284225061' status='passed' stop='1594284226397'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4090347c-5000-4350-9271-6b3e2d05b08e-attachment.png' type='image/png' size='1724588'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected '20px' to equal '20spx'</message>
+                <stack-trace>AssertionError: expected '20px' to equal '20spx'
+                    at home.connSize (/Users/newuser/Projects/alluma-automation/test/pages/home.page.js:30:16)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/home.test.js:23:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594282810577' stop='1594282811456'>
+    <name>Home-page</name>
+    <title>Home-page</title>
+    <test-cases>
+        <test-case start='1594282810578' status='passed' stop='1594282811455'>
+            <name>Home-background</name>
+            <title>Home-background</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594282810586' status='passed' stop='1594282811414'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='86bf2fe9-07c5-4ec2-9371-c4a5d47f9ffe-attachment.json' type='application/json' size='436'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594282811415' status='passed' stop='1594282811431'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='64c00660-90c4-4a6b-a22e-080ac41f1da1-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='d5bfc29a-3f07-42b0-8de6-9b04567ba0d9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594282811436' status='passed' stop='1594282811453'>
+                    <name>GET /session/:sessionId/element/68c530e7-da00-4305-964d-405989629c11/css/background-image</name>
+                    <title>GET /session/:sessionId/element/68c530e7-da00-4305-964d-405989629c11/css/background-image</title>
+                    <attachments>
+                        <attachment title='Response' source='48ec7872-e8a1-43c9-b845-572166a5a28d-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594282692488' stop='1594282696122'>
+    <name>Home-page</name>
+    <title>Home-page</title>
+    <test-cases>
+        <test-case start='1594282692500' status='failed' stop='1594282694743'>
+            <name>Home-background</name>
+            <title>Home-background</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594282692506' status='passed' stop='1594282693230'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='26a8fa23-8f34-48cc-80d6-4787c3bb4bb3-attachment.json' type='application/json' size='436'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594282693231' status='passed' stop='1594282693267'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='57a2fd86-a122-430b-aba4-06662097f84d-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='303348a0-c9dd-49e1-975b-d820c9f5b07c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594282693273' status='passed' stop='1594282693286'>
+                    <name>GET /session/:sessionId/element/1d8d3677-1bb4-4b8d-8358-4fee0d2ef985/css/background-image</name>
+                    <title>GET /session/:sessionId/element/1d8d3677-1bb4-4b8d-8358-4fee0d2ef985/css/background-image</title>
+                    <attachments>
+                        <attachment title='Response' source='e29a7d9d-dad5-4881-b761-a3270eee95c1-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594282693295' status='passed' stop='1594282694736'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d4bb5939-1ddf-45dd-be81-7bf1f4dc20c2-attachment.png' type='image/png' size='1724909'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected { Object (property, value) } to equal 'url(\'../GGHome1366x768.jpg\')'</message>
+                <stack-trace>AssertionError: expected { Object (property, value) } to equal 'url(\'../GGHome1366x768.jpg\')'
+                    at home.bgImage (/Users/newuser/Projects/alluma-automation/test/pages/home.page.js:10:16)
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/home.test.js:7:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1594282694744' status='broken' stop='1594282696121'>
+            <name>Home-text</name>
+            <title>Home-text</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1594282694744' status='passed' stop='1594282696112'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='e246838a-03f5-4dbf-9193-c3c81f456eaa-attachment.png' type='image/png' size='1724588'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_home.default.text is not a function</message>
+                <stack-trace>TypeError: _home.default.text is not a function
+                    at Context.&lt;anonymous> (/Users/newuser/Projects/alluma-automation/test/specs/home.test.js:11:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
