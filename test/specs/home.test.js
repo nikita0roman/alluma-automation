@@ -1,4 +1,6 @@
 import home from '../pages/home.page'
+import exp from '../expected/home.exp';
+
 
 describe('Home-page', function () {
 
@@ -12,7 +14,7 @@ describe('Home-page', function () {
     })
 
     it('Connections-text', function () {
-        home.connText();
+        home.connText(exp.connText);
     })
 
     it('Connections-color', function () {

@@ -3,7 +3,7 @@ export default {
     containerBg: '.gg-login-form',
     conn: '.gg-login-form-title1',
     welcome: '.gg-login-form-title2',
-    tagline: '.gg-login-form-title3',
+    tagLine: '.gg-login-form-title3',
     questionText: '.gg-login-form .gg-login-form-title1',
     qScreener: '.gg-links-text a',
     svgAttention: '.gg-error-icon',

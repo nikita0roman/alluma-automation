@@ -7,32 +7,17 @@ class home extends Base {
 
     bgImage() {
         let bg = $(sel.bgImg).getCSSProperty('background-image').value;
-        assert.equal(bg, exp.bg)
+        assert.equal(bg, exp.bg);
     }
 
     containerBg() {
         let bg = $(sel.containerBg).getCSSProperty('background-color').parsed.hex;
-        assert.equal(bg, exp.containerBg)
+        assert.equal(bg, exp.containerBg);
     }
 
-    connText() {
-        let text = $(sel.conn).getText();
-        assert.equal(text, exp.connText);
-    }
-
-    connColor() {
-        let color = $(sel.conn).getCSSProperty('color').parsed.hex;
-        assert.equal(color, exp.connColor);
-    }
-
-    connSize() {
-        let size = $(sel.conn).getCSSProperty('font-size').value;
-        assert.equal(size, exp.connSize);
-    }
-
-    connText() {
-        let text = $(sel.conn).getText();
-        assert.equal(text, exp.connText);
+    connText(varb = 'CONNECTIONS', count = 0) {
+        let text = $$(sel.conn)[count].getText();
+        assert.equal(text, varb);
     }
 
     connColor() {
@@ -61,17 +46,17 @@ class home extends Base {
     }
 
     taglineText() {
-        let text = $(sel.tagline).getText();
+        let text = $(sel.tagLine).getText();
         assert.equal(text, exp.taglineText);
     }
 
     taglineColor() {
-        let color = $(sel.tagline).getCSSProperty('color').parsed.hex;
+        let color = $(sel.tagLine).getCSSProperty('color').parsed.hex;
         assert.equal(color, exp.taglineColor);
     }
 
     taglineSize() {
-        let size = $(sel.tagline).getCSSProperty('font-size').value;
+        let size = $(sel.tagLine).getCSSProperty('font-size').value;
         assert.equal(size, exp.taglineSize);
     }
 
