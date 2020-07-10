@@ -138,19 +138,19 @@ describe('Forgot-password', function () {
     })
     //Finish 
     it('Container-background', function () {
-        home.containerBg();
+        forgotPassword.containerBg();
     })
 
     it('Connections-text', function () {
-        home.connText();
+        forgotPassword.connText();
     })
 
     it('Connections-color', function () {
-        home.connColor();
+        forgotPassword.connColor();
     })
 
     it('Connections-size', function () {
-        home.connSize();
+        forgotPassword.connSize();
     })
 
     it('Email-send-text-text', function () {

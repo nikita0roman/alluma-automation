@@ -10,26 +10,6 @@ class home extends Base {
         assert.equal(bg, exp.bg);
     }
 
-    containerBg() {
-        let bg = $(sel.containerBg).getCSSProperty('background-color').parsed.hex;
-        assert.equal(bg, exp.containerBg);
-    }
-
-    connText(varb = 'CONNECTIONS', count = 0) {
-        let text = $$(sel.conn)[count].getText();
-        assert.equal(text, varb);
-    }
-
-    connColor() {
-        let color = $(sel.conn).getCSSProperty('color').parsed.hex;
-        assert.equal(color, exp.connColor);
-    }
-
-    connSize() {
-        let size = $(sel.conn).getCSSProperty('font-size').value;
-        assert.equal(size, exp.connSize);
-    }
-
     welcomeText() {
         let text = $(sel.welcome).getText();
         assert.equal(text, exp.welcomeText);
@@ -183,8 +163,8 @@ class home extends Base {
 
     // Wrong-input-data
     WroongErrorMes() {
-        $$(sel.inputBox)[0].setValue('3');
-        $$(sel.inputBox)[1].setValue('3');
+        $$(sel.inputBox)[0].setValue(Math.random() * 100);
+        $$(sel.inputBox)[1].setValue(Math.random() * 100);
         this.pressLoginBtn();
         let text = $(sel.errorMes).getText();
         assert.equal(text, exp.wrongMes);

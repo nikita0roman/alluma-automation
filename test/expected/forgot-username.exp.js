@@ -1,4 +1,22 @@
 export default {
-    
-
+    recoverText: 'Recover Username',
+    recoverColor: '#6c3b96',
+    recoverSize: '50px',
+    hrColor: 'rgba(228,228,228,1)',
+    hrHeight: '1px',
+    mainLabel: 'Email required',
+    requiredColor: 'rgba(204,0,0,1)',
+    inputWidth: '380px',
+    inputSvgSize: '28.1719px',
+    linkToFrgUsrnm: 'I forgot my Password',
+    linkToFrgUsrnmLink: 'https://cx-sb01-auth01.azurewebsites.net/Account/ForgotPassword?origin=https%3A%2F%2Fcx-sb01-auth01.azurewebsites.net%2FAccount%2FLogin%3FReturnUrl%3D%252Fconnect%252Fauthorize%252Fcallback%253Fclient_id%253Dggspa_cxsb01%2526scope%253Dopenid%252520intakeservice%2526response_type%253Did_token%252520token%2526response_mode%253Dform_post%2526redirect_uri%253Dhttps%25253A%25252F%25252Fcx-sb01-auth01.azurewebsites.net%25252FAccount%25252FClientRedirect%2526state%253Dhttp%25253A%25252F%25252Foxcdemo.alluma.org%2526nonce%253D48a56cd0-f07a-4818-9188-044e011e323b&clientid=ggspa',
+    linkToFrgUsrnmColor: 'rgba(108,59,150,1)',
+    mailSend: 'An e-mail with your username has been sent to the entered e-mail address if it corresponds to an active account.',
+    BackToLogin: 'Back to Login',
+    BackToLoginValue: 'BackToLogin',
+    recoverBtn: 'Recover Username',
+    recoverBtnValue: 'ResetPassword',
+    emptyLoginErr: 'The Email field is required.',
+    svgAttentionSize: '24px',
+    svgAttentionColor: 'rgba(204,0,0,1)',
 }

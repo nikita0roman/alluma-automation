@@ -1,4 +1,8 @@
 import sel from '../selectors/home.sel';
+import sell from '../selectors/forgot-password.sel';
+import exp from '../expected/home.exp';
+import expr from '../expected/forgot-password.exp';
+import { assert } from 'chai';
 
 class Base {
     openBase() {
@@ -20,6 +24,61 @@ class Base {
     pressLoginBtn() {
         $(sel.btnLogin).click();
         $(sel.svgAttention).waitForDisplayed();
+    }
+
+    connText(varb = 'CONNECTIONS', count = 0) {
+        let text = $$(sel.conn)[count].getText();
+        assert.equal(text, varb);
+    }
+
+    containerBg() {
+        let bg = $(sel.containerBg).getCSSProperty('background-color').parsed.hex;
+        assert.equal(bg, exp.containerBg);
+    }
+
+    connColor() {
+        let color = $(sel.conn).getCSSProperty('color').parsed.hex;
+        assert.equal(color, exp.connColor);
+    }
+
+    connSize() {
+        let size = $(sel.conn).getCSSProperty('font-size').value;
+        assert.equal(size, exp.connSize);
+    }
+
+    btnText(varb, count) {
+        let text = $$(sell.buttons)[count].getText();
+        assert.equal(text, varb);
+    }
+
+    btnTextColor(count) {
+        let color = $$(sell.buttons)[count].getCSSProperty('color').value;
+        assert.equal(color, expr.btnTextColor);
+    }
+
+    btnColor(count) {
+        let color = $$(sell.buttons)[count].getCSSProperty('background-color').value;
+        assert.equal(color, expr.btnColor);
+    }
+
+    value(varb, count) {
+        let value = $$(sell.buttons)[count].getAttribute('value');
+        assert.equal(value, varb);
+    }
+
+    forgotText(varbl) {
+        let text = $(sell.forgotText).getText();
+        assert.equal(text, varbl);
+    }
+
+    forgotColor() {
+        let color = $(sell.forgotText).getCSSProperty('color').parsed.hex;
+        assert.equal(color, expr.forgotColor);
+    }
+
+    forgotSize() {
+        let size = $(sell.forgotText).getCSSProperty('font-size').value;
+        assert.equal(size, expr.forgotSize);
     }
 }
 

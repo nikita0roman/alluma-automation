@@ -84,26 +84,6 @@ class forgotPassword extends Base {
         assert.equal(size, exp.inputSvgSize);
     }
 
-    btnText(varb, count) {
-        let text = $$(sel.buttons)[count].getText();
-        assert.equal(text, varb);
-    }
-
-    btnTextColor(count) {
-        let color = $$(sel.buttons)[count].getCSSProperty('color').value;
-        assert.equal(color, exp.btnTextColor);
-    }
-
-    btnColor(count) {
-        let color = $$(sel.buttons)[count].getCSSProperty('background-color').value;
-        assert.equal(color, exp.btnColor);
-    }
-
-    value(varb, count) {
-        let value = $$(sel.buttons)[count].getAttribute('value');
-        assert.equal(value, varb);
-    }
-
     //Functionality
     forgotMyUsernameClick() {
         $(sel.linkToFrgUsrnm).click();
