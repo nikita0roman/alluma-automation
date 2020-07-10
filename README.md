@@ -15,6 +15,10 @@ Install https://developer.apple.com/xcode/
 #### 1.5. Python:
 Install https://www.python.org/downloads/release/python-2716/
 ## 2. Start automation
+#### 2.1. Download the repository
+#### 2.2. Use comand to install all tools ```npm i```
+#### 2.3. Now automation framework ready to test web application. Just type comand ```npm run tm``` for Mac or ```npm t``` for Windows
+
 
 
 
