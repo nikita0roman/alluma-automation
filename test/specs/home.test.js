@@ -1,7 +1,6 @@
 import home from '../pages/home.page'
 import exp from '../expected/home.exp';
 
-
 describe('Home-page', function () {
 
     it('Home-background', function () {
@@ -11,6 +10,10 @@ describe('Home-page', function () {
 
     it('Container-background', function () {
         home.containerBg();
+    })
+
+    it('Container-min-width', function () {
+        home.minWidth();
     })
 
     it('Connections-text', function () {
@@ -65,21 +68,32 @@ describe('Home-page', function () {
         home.quickScreener();
     })
 
+    it('Quick-screener-color', function () {
+        home.linkColor();
+    })
+
+    it('Quick-screener-link', function () {
+        home.linkLink(exp.qScreenerLink, 0);
+    })
 
     it('User-name-text', function () {
         home.userName();
-    })
-
-    it('User-name-required-text', function () {
-        home.userNameReq();
     })
 
     it('User-name-required-color', function () {
         home.userNameReqColor();
     })
 
+    it('User-name-input-is-displayed', function () {
+        home.inputIsDisplayed(0);
+    })
+
     it('User-name-input-width', function () {
         home.userNameInput();
+    })
+
+    it('User-name-svg', function () {
+        home.inputIsDisplayed(0);
     })
 
     it('User-name-svg-width', function () {
@@ -90,19 +104,23 @@ describe('Home-page', function () {
         home.pass();
     })
 
-    it('Password-required-text', function () {
-        home.passReq();
-    })
-
     it('Password-required-color', function () {
         home.passReqColor();
+    })
+
+    it('Password-input-is-displayed', function () {
+        home.inputIsDisplayed(1);
     })
 
     it('Password-input-width', function () {
         home.passInput();
     })
 
-    it('Password-name-svg-width', function () {
+    it('Password-svg', function () {
+        home.inputIsDisplayed(1);
+    })
+
+    it('Password-svg-width', function () {
         home.passSvg();
     })
 
@@ -110,9 +128,48 @@ describe('Home-page', function () {
         home.forgotLine();
     })
 
-    it('Additional-information', function () {
-        home.firsAddInfo();
-        home.secAddInfo();
+    it('Forgot-username-color', function () {
+        home.linkColor(1);
+    })
+
+    it('Forgot-username-link', function () {
+        home.linkLink(exp.forgotUsername, 1);
+    })
+
+    it('Forgot-password-color', function () {
+        home.linkColor(2);
+    })
+
+    it('Forgot-username-link', function () {
+        home.linkLink(exp.forgotPass, 2);
+    })
+
+    it('Login-batton-is-displayed', function () {
+        home.pressLoginBtn();
+    })
+
+    it('Login-batton-text', function () {
+        home.btnText(exp.loginBtn);
+    })
+
+    it('Login-batton-text-color', function () {
+        home.btnTextColor();
+    })
+
+    it('Login-batton-background-color', function () {
+        home.btnColor();
+    })
+
+    it('Login-batton-value', function () {
+        home.value(exp.loginValue);
+    })
+
+    it('First-additional-information', function () {
+        home.firsAddInfo(exp.firsAddInfoText, 0);
+    })
+
+    it('Second-additional-information', function () {
+        home.firsAddInfo(exp.secAddInfoText, 1);
     })
     // Empty-Input
     it('Alert-svg', function () {

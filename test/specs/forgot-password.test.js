@@ -1,24 +1,27 @@
 import forgotPassword from '../pages/forgot-password.page'
-import home from '../pages/home.page'
 import exp from '../expected/forgot-password.exp';
 
 describe('Forgot-password', function () {
 
+    it('Forgot-background', function () {
+        forgotPassword.openForgotPass();
+        forgotPassword.bgImage();
+    })
+
     it('Container-background', function () {
-        forgotPassword.openForgotPass()
-        home.containerBg();
+        forgotPassword.containerBg();
     })
 
     it('Connections-text', function () {
-        home.connText();
+        forgotPassword.connText();
     })
 
     it('Connections-color', function () {
-        home.connColor();
+        forgotPassword.connColor();
     })
 
     it('Connections-size', function () {
-        home.connSize();
+        forgotPassword.connSize();
     })
 
     it('Forgot-text-text', function () {
@@ -81,8 +84,16 @@ describe('Forgot-password', function () {
         forgotPassword.userNameInput();
     })
 
-    it('Input-ico-size', function () {
+    it('Input-ico', function () {
         forgotPassword.userNameSvg();
+    })
+
+    it('Input-ico-size', function () {
+        forgotPassword.userNameSvgSz();
+    })
+
+    it('Cancel-batton', function () {
+        forgotPassword.btnIsDisplayed(0);
     })
 
     it('Cancel-batton-text', function () {
@@ -93,12 +104,16 @@ describe('Forgot-password', function () {
         forgotPassword.btnTextColor(0);
     })
 
-    it('Cancel-batton-color', function () {
+    it('Cancel-background-color', function () {
         forgotPassword.btnColor(0);
     })
 
     it('Cancel-batton-value', function () {
         forgotPassword.value(exp.cancelBtnValue, 0);
+    })
+
+    it('Continue-batton', function () {
+        forgotPassword.btnIsDisplayed(1);
     })
 
     it('Continue-batton-text', function () {
@@ -109,14 +124,19 @@ describe('Forgot-password', function () {
         forgotPassword.btnTextColor(1);
     })
 
-    it('Continue-batton-color', function () {
+    it('Continue-background-color', function () {
         forgotPassword.btnColor(1);
     })
 
     it('Continue-batton-value', function () {
         forgotPassword.value(exp.continueBtnValue, 1);
     })
+
     //Functionality
+    it('Cancel-button-click', function () {
+        forgotPassword.cancelBtnClick();
+    })
+
     it('Forgot-username-click', function () {
         forgotPassword.forgotMyUsernameClick();
     })
@@ -136,6 +156,7 @@ describe('Forgot-password', function () {
     it('Continue-batton-click', function () {
         forgotPassword.continueClick();
     })
+    
     //Finish 
     it('Container-background', function () {
         forgotPassword.containerBg();
@@ -185,6 +206,10 @@ describe('Forgot-password', function () {
         forgotPassword.doneMsg();
     })
 
+    it('Done-icon', function () {
+        forgotPassword.doneSvg();
+    })
+
     it('Done-icon-color', function () {
         forgotPassword.doneSvgColor();
     })
@@ -206,15 +231,15 @@ describe('Forgot-password', function () {
     })
 
     it('Not-receive-a-message-text', function () {
-        home.connText(exp.blueText, 1);
+        forgotPassword.connText(exp.blueText, 1);
     })
 
     it('Not-receive-a-message-color', function () {
-        home.connColor();
+        forgotPassword.connColor();
     })
 
     it('Not-receive-a-message-size', function () {
-        home.connSize();
+        forgotPassword.connSize();
     })
 
     it('Tagline-text', function () {
@@ -235,6 +260,10 @@ describe('Forgot-password', function () {
 
     it('Resend-mail-link-value', function () {
         forgotPassword.resendMailValue();
+    })
+
+    it('Back-to-login-batton', function () {
+        forgotPassword.btnIsDisplayed(0);
     })
 
     it('Back-to-login-batton-text', function () {

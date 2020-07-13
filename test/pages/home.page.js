@@ -5,11 +5,6 @@ import Base from '../pages/base';
 
 class home extends Base {
 
-    bgImage() {
-        let bg = $(sel.bgImg).getCSSProperty('background-image').value;
-        assert.equal(bg, exp.bg);
-    }
-
     welcomeText() {
         let text = $(sel.welcome).getText();
         assert.equal(text, exp.welcomeText);
@@ -60,19 +55,28 @@ class home extends Base {
         assert.equal(text, exp.qScreener);
     }
 
+    linkColor(count = 0) {
+        let color = $$(sel.qScreener)[count].getCSSProperty('color').parsed.hex;;
+        assert.equal(color, exp.qScreenerColor);
+    }
+
+    linkLink(varbl, count = 0) {
+        let link = $$(sel.qScreener)[count].getAttribute('href');
+        assert.equal(link, varbl);
+    }
+
     userName() {
         let text = $$(sel.loginLabel)[0].getText();
         assert.equal(text, exp.username);
     }
 
-    userNameReq() {
-        let text = $$(sel.loginReq)[0].getText();
-        assert.equal(text, exp.req);
-    }
-
     userNameReqColor() {
         let color = $$(sel.loginReq)[0].getCSSProperty('color').value;
         assert.equal(color, exp.reqColor);
+    }
+
+    inputIsDisplayed(count) {
+        $$(sel.inputBox)[count].waitForDisplayed;
     }
 
     userNameInput() {
@@ -88,11 +92,6 @@ class home extends Base {
     pass() {
         let text = $$(sel.loginLabel)[1].getText();
         assert.equal(text, exp.pass);
-    }
-
-    passReq() {
-        let text = $$(sel.loginReq)[1].getText();
-        assert.equal(text, exp.req);
     }
 
     passReqColor() {
@@ -115,17 +114,18 @@ class home extends Base {
         assert.equal(text, exp.forgotLine);
     }
 
-    firsAddInfo() {
-        let text = $$(sel.addInfo)[0].getText();
-        assert.equal(text, exp.firsAddInfoText);
-    }
-
-    secAddInfo() {
-        let text = $$(sel.addInfo)[1].getText();
-        assert.equal(text, exp.secAddInfoText);
+    firsAddInfo(varbl, count) {
+        let text = $$(sel.addInfo)[count].getText();
+        assert.equal(text, varbl);
     }
 
     // Empty-input
+
+    pressLoginBtn() {
+        $(sel.btnLogin).click();
+        $(sel.svgAttention).waitForDisplayed();
+    }
+
     allertSvgSize() {
         let size = $(sel.svgAttention).getCSSProperty('width').value;
         assert.equal(size, exp.svgAttentionSize);

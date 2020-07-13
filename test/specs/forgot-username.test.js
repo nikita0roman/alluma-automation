@@ -21,15 +21,15 @@ describe('Forgot-username', function () {
     })
 
     it('Recover-username-text', function () {
-        forgotUsername.recoverText(exp.recoverText);
+        forgotUsername.forgotText(exp.recoverText);
     })
 
     it('Recover-text-color', function () {
-        forgotUsername.recoverColor();
+        forgotUsername.forgotColor();
     })
 
     it('Recover-text-size', function () {
-        forgotUsername.recoverSize();
+        forgotUsername.forgotSize();
     })
 
     it('Line-is-displayed', function () {

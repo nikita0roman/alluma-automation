@@ -1,7 +1,7 @@
-import sel from '../selectors/home.sel';
-import sell from '../selectors/forgot-password.sel';
-import exp from '../expected/home.exp';
-import expr from '../expected/forgot-password.exp';
+import homeSel from '../selectors/home.sel';
+import fPassSel from '../selectors/forgot-password.sel';
+import homeExp from '../expected/home.exp';
+import fPassExp from '../expected/forgot-password.exp';
 import { assert } from 'chai';
 
 class Base {
@@ -17,69 +17,71 @@ class Base {
         browser.url('/Account/ForgotPassword?origin=https%3A%2F%2Fcx-sb01-auth01.azurewebsites.net%2FAccount%2FLogin%3FReturnUrl%3D%252Fconnect%252Fauthorize%252Fcallback%253Fclient_id%253Dggspa_cxsb01%2526scope%253Dopenid%252520intakeservice%2526response_type%253Did_token%252520token%2526response_mode%253Dform_post%2526redirect_uri%253Dhttps%25253A%25252F%25252Fcx-sb01-auth01.azurewebsites.net%25252FAccount%25252FClientRedirect%2526state%253Dhttp%25253A%25252F%25252Foxcdemo.alluma.org%2526nonce%253De43eec07-6da6-40c3-816e-435d4d17ef17&clientid=ggspa');
     }
 
-    openUsers() {
-        browser.url('/users');
-    }
-
-    pressLoginBtn() {
-        $(sel.btnLogin).click();
-        $(sel.svgAttention).waitForDisplayed();
-    }
-
-    connText(varb = 'CONNECTIONS', count = 0) {
-        let text = $$(sel.conn)[count].getText();
-        assert.equal(text, varb);
+    bgImage() {
+        let bg = $(homeSel.bgImg).getCSSProperty('background-image').value;
+        assert.equal(bg, homeExp.bg);
     }
 
     containerBg() {
-        let bg = $(sel.containerBg).getCSSProperty('background-color').parsed.hex;
-        assert.equal(bg, exp.containerBg);
+        let bg = $(homeSel.containerBg).getCSSProperty('background-color').parsed.hex;
+        assert.equal(bg, homeExp.containerBg);
     }
 
-    connColor() {
-        let color = $(sel.conn).getCSSProperty('color').parsed.hex;
-        assert.equal(color, exp.connColor);
+    minWidth() {
+        let size = $(homeSel.containerBg).getCSSProperty('width').value;
+        assert.equal(size, homeExp.containerMinWidth);
     }
 
-    connSize() {
-        let size = $(sel.conn).getCSSProperty('font-size').value;
-        assert.equal(size, exp.connSize);
-    }
-
-    btnText(varb, count) {
-        let text = $$(sell.buttons)[count].getText();
+    connText(varb = 'CONNECTIONS', count = 0) {
+        let text = $$(homeSel.conn)[count].getText();
         assert.equal(text, varb);
     }
 
-    btnTextColor(count) {
-        let color = $$(sell.buttons)[count].getCSSProperty('color').value;
-        assert.equal(color, expr.btnTextColor);
+    connColor() {
+        let color = $(homeSel.conn).getCSSProperty('color').parsed.hex;
+        assert.equal(color, homeExp.connColor);
     }
 
-    btnColor(count) {
-        let color = $$(sell.buttons)[count].getCSSProperty('background-color').value;
-        assert.equal(color, expr.btnColor);
+    connSize() {
+        let size = $(homeSel.conn).getCSSProperty('font-size').value;
+        assert.equal(size, homeExp.connSize);
     }
 
-    value(varb, count) {
-        let value = $$(sell.buttons)[count].getAttribute('value');
+    btnText(varb, count = 0) {
+        let text = $$(fPassSel.buttons)[count].getText();
+        assert.equal(text, varb);
+    }
+
+    btnTextColor(count = 0) {
+        let color = $$(fPassSel.buttons)[count].getCSSProperty('color').value;
+        assert.equal(color, fPassExp.btnTextColor);
+    }
+
+    btnColor(count = 0) {
+        let color = $$(fPassSel.buttons)[count].getCSSProperty('background-color').value;
+        assert.equal(color, fPassExp.btnColor);
+    }
+
+    value(varb, count = 0) {
+        let value = $$(fPassSel.buttons)[count].getAttribute('value');
         assert.equal(value, varb);
     }
 
     forgotText(varbl) {
-        let text = $(sell.forgotText).getText();
+        let text = $(fPassSel.forgotText).getText();
         assert.equal(text, varbl);
     }
 
     forgotColor() {
-        let color = $(sell.forgotText).getCSSProperty('color').parsed.hex;
-        assert.equal(color, expr.forgotColor);
+        let color = $(fPassSel.forgotText).getCSSProperty('color').parsed.hex;
+        assert.equal(color, fPassExp.forgotColor);
     }
 
     forgotSize() {
-        let size = $(sell.forgotText).getCSSProperty('font-size').value;
-        assert.equal(size, expr.forgotSize);
+        let size = $(fPassSel.forgotText).getCSSProperty('font-size').value;
+        assert.equal(size, fPassExp.forgotSize);
     }
+
 }
 
 export default Base;

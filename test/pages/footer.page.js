@@ -9,18 +9,30 @@ class footer extends Base {
         $(sel.fLogo).isDisplayed();
     }
 
-    firstH4Text() {
-        let text = $(sel.firH4).getText();
-        assert.equal(text, exp.firH4);
+    bgColor() {
+        let color = $(sel.footer).getCSSProperty('background-color').parsed.hex;
+        assert.equal(color, exp.footerColor);
+    }
+
+    footerWidth(){
+        let width = $(sel.footer).getCSSProperty('width').value;
+        let screen = browser.getWindowSize().width + 'px';
+
+        assert.equal(width, screen)
+    }
+
+    textH4(varbl, count) {
+        let text = $$(sel.textH4)[count].getText();
+        assert.equal(text, varbl);
     }
 
     firstH4Color() {
-        let color = $(sel.firH4).getCSSProperty('color').parsed.hex;
+        let color = $$(sel.textH4)[0].getCSSProperty('color').parsed.hex;
         assert.equal(color, exp.firH4Color);
     }
 
     firstH4Size() {
-        let size = $(sel.firH4).getCSSProperty('font-size').value;
+        let size = $$(sel.textH4)[0].getCSSProperty('font-size').value;
         assert.equal(size, exp.firH4Size);
     }
 
@@ -30,12 +42,12 @@ class footer extends Base {
     }
 
     secH4Color() {
-        let color = $(sel.secH4).getCSSProperty('color').parsed.hex;
+        let color = $$(sel.textH4)[1].getCSSProperty('color').parsed.hex;
         assert.equal(color, exp.secH4Color);
     }
 
     secH4Size() {
-        let size = $(sel.secH4).getCSSProperty('font-size').value;
+        let size = $$(sel.textH4)[1].getCSSProperty('font-size').value;
         assert.equal(size, exp.secH4Size);
     }
 
@@ -45,12 +57,12 @@ class footer extends Base {
     }
 
     thrH4Color() {
-        let color = $(sel.thrH4).getCSSProperty('color').parsed.hex;
+        let color = $$(sel.textH4)[2].getCSSProperty('color').parsed.hex;
         assert.equal(color, exp.thrH4Color);
     }
 
     thrH4Size() {
-        let size = $(sel.thrH4).getCSSProperty('font-size').value;
+        let size = $$(sel.textH4)[2].getCSSProperty('font-size').value;
         assert.equal(size, exp.thrH4Size);
     }
 
@@ -79,16 +91,17 @@ class footer extends Base {
         assert.equal(text, exp.fax);
     }
 
-    fb() {
-        $(sel.fbIco).isDisplayed();
+    snIco(count = 0) {
+        $$(sel.snIco)[count].isDisplayed();
     }
 
-    tw() {
-        $(sel.twIco).isDisplayed();
+    snLink(varbl, count = 0) {
+        let href = $$(sel.snIco)[count].getAttribute('href');
+        assert.equal(href, varbl);
     }
 
-    in() {
-        $(sel.inIco).isDisplayed();
+    hrIsDisplayed() {
+        $(sel.hr).waitForDisplayed();
     }
 
     hrHeight() {
@@ -141,10 +154,6 @@ class footer extends Base {
         assert.equal(text, exp.termsOfUse);
     }
 
-    fColor() {
-        let color = $(sel.footer).getCSSProperty('background-color').parsed.hex;
-        assert.equal(color, exp.footerColor);
-    }
 }
 
 export default new footer();

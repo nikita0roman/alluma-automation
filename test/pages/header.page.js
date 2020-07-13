@@ -5,8 +5,15 @@ import Base from '../pages/base';
 
 class header extends Base {
 
-    headerLogoDispayed() {
-        $(sel.hLogo).isDisplayed();
+    bgColor() {
+        let color = $$(sel.header)[0].getCSSProperty('background-color').parsed.hex;
+        assert.equal(color, exp.headerColor);
+    }
+
+    headerWidth(){
+        let width = $$(sel.header)[0].getCSSProperty('width').value;
+        let screen = browser.getWindowSize().width + 'px';
+        assert.equal(width, screen)
     }
 
     headerLogoText() {

@@ -13,9 +13,7 @@ export default {
     addInfo: '.gg-login-form-title4',
     forgotLine: '.gg-links-text',
     forgetLink: '.gg-link',
-
     inputBox: '.gg-form-input-box input',
     inputSvg: '.gg-form-input-box svg',
-
     btnLogin: '.gg-btn',
 }

@@ -1,7 +1,7 @@
 exports.config = {
     runner: 'local',
     specs: [
-        './test/specs/*.js'
+        './test/specs/forgot-username.test.js'
     ],
     exclude: [
         // 'path/to/excluded/files'

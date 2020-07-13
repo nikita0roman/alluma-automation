@@ -5,21 +5,6 @@ import Base from '../pages/base';
 
 class forgotPassword extends Base {
 
-    recoverText(varbl) {
-        let text = $(sel.recoverText).getText();
-        assert.equal(text, varbl);
-    }
-
-    recoverColor() {
-        let color = $(sel.recoverText).getCSSProperty('color').parsed.hex;
-        assert.equal(color, exp.recoverColor);
-    }
-
-    recoverSize() {
-        let size = $(sel.recoverText).getCSSProperty('font-size').value;
-        assert.equal(size, exp.recoverSize);
-    }
-
     hrLine(varb = 0) {
         $$(sel.hrLine)[varb].isDisplayed();
     }

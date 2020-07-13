@@ -2,9 +2,13 @@ import header from '../pages/header.page'
 
 describe('Header', function () {
 
-    it('Header-logo', function () {
+    it('Background-color', function () {
         header.openBase();
-        header.headerLogoDispayed();
+        header.bgColor();
+    })
+
+    it('Header-width', function () {
+        header.headerWidth();
     })
 
     it('Header-logo-text', function () {

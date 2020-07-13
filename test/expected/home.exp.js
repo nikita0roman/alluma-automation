@@ -1,39 +1,36 @@
 export default {
     bg: 'url("https://cx-sb01-auth01.azurewebsites.net/gghome1366x768.jpg")',
     containerBg: '#ffffff',
-
+    containerMinWidth: '450px',
     connText: 'CONNECTIONS',
     connColor: '#37a1b9',
     connSize: '20px',
-
     welcomeText: 'Welcome to Connections',
     welcomeColor: '#6c3b96',
     welcomeSize: '50px',
-
     taglineText: 'Connect people with the benefits they need, with one simple application.',
     taglineColor: '#54545c',
     taglineSize: '16px',
-
     questionText: 'Curious what you may qualify for?',
     qScreener: 'Try our Quick Screener',
-
+    qScreenerColor: '#6c3b96',
+    qScreenerLink: 'http://oxcdemo.alluma.org/#/quick/intro',
     svgAttentionSize: '24px',
     svgAttentionColor: 'rgba(204,0,0,1)',
-
     username: 'User name required',
     pass: 'Password required',
     req: 'required',
     reqColor: 'rgba(204,0,0,1)',
-
     inputWidth: '380px',
     inputSvgSize: '28.1719px',
-
     emptyLogin: 'The Username field is required.',
     emptyPass: 'The Password field is required.',
     wrongMes: 'Your user name and password does not match anyone in our system. Please try again.',
-
+    forgotLine: 'Forgot User Name or Password ?',
+    forgotUsername: 'https://cx-sb01-auth01.azurewebsites.net/Account/ForgotUsername?origin=https%3A%2F%2Fcx-sb01-auth01.azurewebsites.net%2FAccount%2FLogin%3FReturnUrl%3D%252Fconnect%252Fauthorize%252Fcallback%253Fclient_id%253Dggspa_cxsb01%2526scope%253Dopenid%252520intakeservice%2526response_type%253Did_token%252520token%2526response_mode%253Dform_post%2526redirect_uri%253Dhttps%25253A%25252F%25252Fcx-sb01-auth01.azurewebsites.net%25252FAccount%25252FClientRedirect%2526state%253Dhttp%25253A%25252F%25252Foxcdemo.alluma.org%2526nonce%253D48a56cd0-f07a-4818-9188-044e011e323b&clientid=ggspa',
+    forgotPass: 'https://cx-sb01-auth01.azurewebsites.net/Account/ForgotPassword?origin=https%3A%2F%2Fcx-sb01-auth01.azurewebsites.net%2FAccount%2FLogin%3FReturnUrl%3D%252Fconnect%252Fauthorize%252Fcallback%253Fclient_id%253Dggspa_cxsb01%2526scope%253Dopenid%252520intakeservice%2526response_type%253Did_token%252520token%2526response_mode%253Dform_post%2526redirect_uri%253Dhttps%25253A%25252F%25252Fcx-sb01-auth01.azurewebsites.net%25252FAccount%25252FClientRedirect%2526state%253Dhttp%25253A%25252F%25252Foxcdemo.alluma.org%2526nonce%253D48a56cd0-f07a-4818-9188-044e011e323b&clientid=ggspa',
     firsAddInfoText: 'If you need a user name, contact your system administrator.',
     secAddInfoText: 'Interested in becoming a Connections user? Learn More',
-
-    forgotLine: 'Forgot User Name or Password ?'
+    loginBtn: 'Log In',
+    loginValue: 'login'
 }

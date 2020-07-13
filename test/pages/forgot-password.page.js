@@ -21,7 +21,7 @@ class forgotPassword extends Base {
     }
 
     hrLine(varb = 0) {
-        $$(sel.hrLine)[varb].isDisplayed();
+        $$(sel.hrLine)[varb].waitForDisplayed();
     }
 
     hrLineColor(varb = 0) {
@@ -80,8 +80,16 @@ class forgotPassword extends Base {
     }
 
     userNameSvg() {
+        $(sel.inputSvg).waitForDisplayed();
+    }
+
+    userNameSvgSz() {
         let size = $(sel.inputSvg).getCSSProperty('width').value;
         assert.equal(size, exp.inputSvgSize);
+    }
+
+    btnIsDisplayed(count = 0) {
+        $$(sel.buttons)[count].waitForDisplayed();
     }
 
     //Functionality
@@ -96,7 +104,7 @@ class forgotPassword extends Base {
         $('div=Welcome to Connections').waitForDisplayed();
         $$(sel.linkToFrgUsrnm)[2].click();
     }
-    
+
     // Empty-input
     emptyContinueClick() {
         $$(sel.buttons)[1].click();
@@ -128,6 +136,10 @@ class forgotPassword extends Base {
     doneSvgColor() {
         let color = $(sel.doneSvg).getCSSProperty('color').parsed.hex;
         assert.equal(color, exp.doneSvgColor);
+    }
+
+    doneSvg() {
+        $(sel.doneSvg).waitForDisplayed();
     }
 
     doneSvgSize() {

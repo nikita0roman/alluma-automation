@@ -1,14 +1,19 @@
-import footer from '../pages/footer.page'
+import footer from '../pages/footer.page';
+import exp from '../expected/footer.exp'
 
 describe('Footer', function () {
 
-    it('Footer-logo', function () {
+    it('Footer-color', function () {
         footer.openBase();
-        footer.footerLogoDispayed();
+        footer.bgColor();
+    })
+
+    it('Footer-width', function () {
+        footer.footerWidth();
     })
 
     it('First-h4-text', function () {
-        footer.firstH4Text();
+        footer.textH4(exp.firH4, 0);
     })
 
     it('First-h4-color', function () {
@@ -20,7 +25,7 @@ describe('Footer', function () {
     })
 
     it('Second-h4-text', function () {
-        footer.secH4Text();
+        footer.textH4(exp.secH4, 1);
     })
 
     it('Second-h4-color', function () {
@@ -32,7 +37,7 @@ describe('Footer', function () {
     })
 
     it('Three-h4-text', function () {
-        footer.thrH4Text();
+        footer.textH4(exp.thrH4, 2);
     })
 
     it('Three-h4-color', function () {
@@ -64,19 +69,39 @@ describe('Footer', function () {
     })
 
     it('Facebook-ico', function () {
-        footer.fb();
+        footer.snIco(0);
     })
 
     it('Twitter-ico', function () {
-        footer.tw();
+        footer.snIco(1);
     })
 
     it('Linkedin-ico', function () {
-        footer.in();
+        footer.snIco(2);
+    })
+
+    it('Facebook-link', function () {
+        footer.snLink(exp.fbLink, 0);
+    })
+
+    it('Twitter-link', function () {
+        footer.snLink(exp.twLink, 1);
+    })
+
+    it('Linkedin-link', function () {
+        footer.snLink(exp.inLink, 2);
+    })
+
+    it('Hr-is-displayed', function () {
+        footer.hrIsDisplayed();
     })
 
     it('Hr-height', function () {
         footer.hrHeight();
+    })
+
+    it('Footer-logo', function () {
+        footer.footerLogoDispayed();
     })
 
     it('Alluma-logo-alt', function () {
@@ -109,10 +134,6 @@ describe('Footer', function () {
 
     it('Terms of Use', function () {
         footer.termOfUs();
-    })
-
-    it('Footer-color', function () {
-        footer.fColor();
     })
 
 })
