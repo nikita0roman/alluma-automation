@@ -3,8 +3,12 @@ import exp from '../expected/forgot-username.exp';
 
 describe('Forgot-username', function () {
 
-    it('Container-background', function () {
+    it('Forgot-background', function () {
         forgotUsername.openForgotUsername()
+        forgotUsername.bgImage();
+    })
+
+    it('Container-background', function () {
         forgotUsername.containerBg();
     })
 
@@ -194,6 +198,10 @@ describe('Forgot-username', function () {
 
     it('Input-ico-size', function () {
         forgotUsername.userNameSvg();
+    })
+
+    it('Input-value', function () {
+        forgotUsername.userNameValue();
     })
 
     it('Forgot-password-text', function () {

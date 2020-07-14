@@ -19,4 +19,5 @@ export default {
     emptyLoginErr: 'The Email field is required.',
     svgAttentionSize: '24px',
     svgAttentionColor: 'rgba(204,0,0,1)',
+    userMail: `abc${Math.random() * 10}d@qwe.com`
 }

@@ -39,6 +39,11 @@ class forgotPassword extends Base {
         assert.equal(size, exp.inputSvgSize);
     }
 
+    userNameValue(){
+        let val = $(sel.inputBox).getAttribute('value');
+        assert.equal(val, exp.userMail);
+    }
+
     forgotPass() {
         let text = $(sel.linkToFrgPass).getText();
         assert.equal(text, exp.linkToFrgUsrnm);
@@ -84,7 +89,7 @@ class forgotPassword extends Base {
     }
 
     recoverClick() {
-        $(sel.inputBox).setValue(`abc${Math.random() * 10}d@qwe.com`);
+        $(sel.inputBox).setValue(exp.userMail);
         $$(sel.buttons)[1].click();
         $('div=Recover Username').waitForDisplayed();
     }
