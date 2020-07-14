@@ -1,3 +1,4 @@
+![Alluma logo](https://i.ibb.co/ySJSYpB/Screen-Shot-2020-07-13-at-10-03-45-PM.png)
 # alluma-automation
 
 ## 1. Prerequisites
